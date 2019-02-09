@@ -17,10 +17,9 @@ title: Data2day
 email: info@data2day.nl
 owner: Kees den Heijer
 description: > # this means to ignore newlines until "baseurl:"
-  Yet another Jekyll theme. It is designed for business purpose and ported by 
-  Melvin Ch'ng.
+  Data2day data consultancy to turn your data into valuable information.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://127.0.0.1:8000" # the base hostname & protocol for your site, e.g. http://example.com
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
 language: nl
 
 # Company Information
@@ -29,7 +28,6 @@ address_line:
 telephone_number: +31 85 1305 870
 fax_number:
 company_email: info@data2day.nl
-google_map: #https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3618.727010735933!2d91.837871!3d24.907291700000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2s!4v1404919738144
 
 # Social Link
 facebook_link: #http://www.facebook.com
@@ -41,7 +39,7 @@ googleplus_link: #http://plus.google.com
 # Build settings
 markdown: kramdown
 plugins:
-  - jekyll-feed
+#  - jekyll-feed
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
