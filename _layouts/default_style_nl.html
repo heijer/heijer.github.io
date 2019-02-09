@@ -1,0 +1,17 @@
+---
+language: nl
+---
+
+<!doctype html>
+<html lang="{{ layout.language }}">
+
+  {% include head.html %}
+  {% include {{ layout.language }}/navbar.html %}
+  {% include script.html %}
+
+  <body>
+    {{ content }}
+  </body>
+
+  {% include {{ layout.language }}/footer.html %}
+</html>

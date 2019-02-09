@@ -13,22 +13,33 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Your awesome title
-email: your-email@example.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+title: Data2day
+email: info@data2day.nl
+owner: Kees den Heijer
+description: > # this means to ignore newlines until "baseurl:"
+  Data2day data consultancy to turn your data into valuable information.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+language: nl
+
+# Company Information
+company_name: Data2day
+address_line:
+telephone_number: +31 85 1305 870
+fax_number:
+company_email: info@data2day.nl
+
+# Social Link
+facebook_link: #http://www.facebook.com
+twitter_link: #http://www.twitter.com
+linkedin_link: https://www.linkedin.com/in/keesdenheijer/
+linkedin_link_company: https://www.linkedin.com/company/data2day/
+googleplus_link: #http://plus.google.com
 
 # Build settings
 markdown: kramdown
-theme: minima
 plugins:
-  - jekyll-feed
+#  - jekyll-feed
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

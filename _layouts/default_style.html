@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="{{ site.language }}">
+
+  {% include head.html %}
+  {% include {{ site.language }}/navbar.html %}
+  {% include script.html %}
+
+  <body>
+    {{ content }}
+  </body>
+
+  {% include {{ site.language }}/footer.html %}
+</html>
