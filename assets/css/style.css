@@ -383,7 +383,7 @@ p.blog-text{
   width: 250px;
 }
 
-@media (max-width: 768px){ 
+@media (max-width: 768px){
     .company-logo{
       width: 200px;
   }
@@ -485,6 +485,29 @@ p.blog-text{
   color: white;
 }
 
+/*
+* ==========================================================================
+* Customers Section
+* ==========================================================================
+*/
+.customers-section {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.customers-section .customers-header {
+  margin-bottom: 50px;
+  font-size: 25px;
+}
+.customers-section .customers-header .customers-header-title {
+  margin-bottom: 15px;
+}
+
+.customers-logo a img {
+    display:block;
+    margin:auto;
+    padding: 10px;
+}
 
 /* ----- Footer ----- */
 .footer-widget{
